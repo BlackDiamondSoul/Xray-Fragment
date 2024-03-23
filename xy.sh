@@ -345,7 +345,7 @@ install() {
         
     elif [ "$config" == "socks" ]; then
         config-socks
-        socks="socks5://127.0.0.1:$port/#Peyman%20YouTube%20%26%20X"
+        socks="socks5://127.0.0.1:$port/#BlackDiamondSoul"
         echo -e "${blue}--------------------------------------${rest}"
         echo -e "${yellow}$socks${rest}"
         echo -e "${blue}--------------------------------------${rest}"
@@ -370,17 +370,6 @@ install() {
     fi
 }
 
-#Uninstall
-uninstall() {
-    directory="/data/data/com.termux/files/home/xy-fragment"
-    if [ -d "$directory" ]; then
-        rm -r "$directory"
-        echo -e "${red}Uninstallation completed.${rest}"
-    else
-        echo -e "${red}Please Install First.${rest}"
-    fi
-}
-
 #run
 run() {
     clear
@@ -402,7 +391,7 @@ run() {
 
 #menu
 clear
-echo -e "${green}By --> Peyman * Github.com/Ptechgithub * ${rest}"
+echo -e "${green}By --> Soul * Github.com/BlackDiamondSoul * ${rest}"
 echo ""
 echo -e "${cyan}---Bypass Filtering -- Xray Fragment---${rest}"
 echo ""
